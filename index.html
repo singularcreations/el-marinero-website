@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>El Marinero Family Restaurant</title>
+    <meta
+      name="description"
+      content="Mexican food and fresh seafood in Norwalk, California. Open daily from 8:00 AM to 10:00 PM."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-pattern" aria-hidden="true"></div>
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="El Marinero Family Restaurant home">
+          <span class="logo-wrap">
+            <span class="logo-fallback" aria-hidden="true">EM</span>
+            <img
+              class="logo"
+              src="public/logo.png"
+              alt="El Marinero Family Restaurant logo"
+            />
+          </span>
+          <span class="brand-copy">
+            <span class="brand-name">El Marinero Family Restaurant</span>
+            <span class="brand-address">11025 Alondra Blvd, Norwalk, CA 90650</span>
+          </span>
+        </a>
+
+        <div class="nav-actions">
+          <a class="phone-pill" href="tel:+15628635252">(562) 863-5252</a>
+          <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-slider" aria-hidden="true">
+          <div class="slide fallback-slide is-active"></div>
+          <div class="slide" style="background-image: var(--slide-overlay), url('public/slide-1.jpg')"></div>
+          <div class="slide" style="background-image: var(--slide-overlay), url('public/slide-2.jpg')"></div>
+          <div class="slide" style="background-image: var(--slide-overlay), url('public/slide-3.jpg')"></div>
+          <div class="hero-glow"></div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Mexican Kitchen & Fresh Seafood</p>
+          <h1>El Marinero Family Restaurant</h1>
+          <p class="hero-subtitle">
+            Authentic Mexican flavors, fresh seafood, and warm family hospitality
+            in the heart of Norwalk.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-gold" href="#menu">View Menu</a>
+            <a class="btn btn-orange" href="tel:+15628635252">Call Now</a>
+            <a
+              class="btn btn-ghost"
+              href="https://www.google.com/maps/search/?api=1&query=11025%20Alondra%20Blvd%2C%20Norwalk%2C%20CA%2090650"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get Directions
+            </a>
+          </div>
+
+          <div class="hero-cards" aria-label="Restaurant highlights">
+            <div class="hero-card">
+              <span>Open Daily</span>
+              <strong>8:00 AM - 10:00 PM</strong>
+            </div>
+            <div class="hero-card">
+              <span>Local Favorite</span>
+              <strong>Norwalk, California</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-dots" aria-label="Hero slider controls">
+          <button class="dot is-active" type="button" data-slide="0" aria-label="Show slide 1"></button>
+          <button class="dot" type="button" data-slide="1" aria-label="Show slide 2"></button>
+          <button class="dot" type="button" data-slide="2" aria-label="Show slide 3"></button>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section">
+        <div class="menu-card">
+          <div class="menu-card-bg" aria-hidden="true"></div>
+          <div class="menu-panel">
+            <p class="section-kicker">Menu</p>
+            <h2>Explore the full menu</h2>
+            <p>
+              View the official menu PDF for current seafood plates, Mexican
+              favorites, drinks, and family dining options.
+            </p>
+          </div>
+          <div class="menu-copy">
+            <p>
+              The printed menu stays in one simple place: a clean PDF link guests
+              can open before visiting or while ordering by phone.
+            </p>
+            <a class="btn btn-orange" href="public/menu.pdf" target="_blank" rel="noreferrer">
+              Open Menu PDF
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-shell">
+          <div class="contact-intro">
+            <p class="section-kicker">Contact</p>
+            <h2>El Marinero Family Restaurant</h2>
+            <p>
+              Visit us on Alondra Boulevard for a warm local dining experience
+              with Mexican cooking, fresh seafood, and friendly service.
+            </p>
+
+            <div class="contact-buttons">
+              <a class="btn btn-dark" href="tel:+15628635252">Call Now</a>
+              <a
+                class="btn btn-light"
+                href="https://www.google.com/maps/search/?api=1&query=11025%20Alondra%20Blvd%2C%20Norwalk%2C%20CA%2090650"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Google Maps
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-cards">
+            <article class="contact-card">
+              <p>Phone</p>
+              <strong>(562) 863-5252</strong>
+              <span>Call for takeout and restaurant information.</span>
+            </article>
+            <article class="contact-card">
+              <p>Address</p>
+              <strong>11025 Alondra Blvd, Norwalk, CA 90650</strong>
+              <span>Serving families and seafood lovers in Norwalk.</span>
+            </article>
+            <article class="contact-card">
+              <p>Hours</p>
+              <strong>8:00 AM - 10:00 PM</strong>
+              <span>Open daily for breakfast, lunch, and dinner.</span>
+            </article>
+          </div>
+
+          <div class="map-frame">
+            <iframe
+              title="Map to El Marinero Family Restaurant"
+              src="https://www.google.com/maps?q=11025%20Alondra%20Blvd%2C%20Norwalk%2C%20CA%2090650&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="contact-bar">
+            <span>11025 Alondra Blvd, Norwalk, CA 90650</span>
+            <span>(562) 863-5252 · Open Daily 8:00 AM - 10:00 PM</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

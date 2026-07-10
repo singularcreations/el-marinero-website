@@ -1,12 +1,20 @@
 # El Marinero Family Restaurant
 
-Single-page website built with Next.js, TypeScript, Tailwind CSS, and App Router.
+Single-page static website built with HTML, CSS, and vanilla JavaScript.
 
 ## Sections
 
 - Home
 - Menu
 - Contact
+
+## Main Files
+
+```text
+index.html
+styles.css
+script.js
+```
 
 ## Public Assets
 
@@ -20,4 +28,4 @@ public/slide-3.jpg
 public/menu.pdf
 ```
 
-The Menu button already points to `/menu.pdf`.
+The Menu button points to `public/menu.pdf`.
